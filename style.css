@@ -2,7 +2,9 @@ body {
   font-family: arial, sans-serif;
   background-image: url(./assets/pexels-francesco-ungaro-281260.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+background-repeat: no-repeat;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -32,10 +34,11 @@ button[type="submit"]{
   color: rgb(216, 216, 216);
   border: none;
   cursor: pointer;
+  transition: 0.15s;
 }
 
 .card {
-  background: linear-gradient( 180deg,rgb(133, 207, 231), rgb(212, 182, 126));
+  background: linear-gradient( 180deg,rgb(64, 177, 253), rgba(212, 182, 126, 0.836));
   padding: 50px;
   box-shadow: 2px 2px 5px rgb(0, 0, 0);
   min-width: 300px;
