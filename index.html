@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather app</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="search-box"></div>
-      <i class="bx-bxs-map"></i>
-      <input type="text" placeholder="enter your location" />
-      <button class="bx bx-search"></button>
-    </div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <form class="weatherform">
+    <input type="text" class="cityinput" placeholder="Enter city">
+    <button type="submit">Get weather</button>
+  </form>
+  <div class="card">
+    <h1 class="cityDisplay">Bergen</h1>
+    <p class="tempDisplay">-90°C</p>
+    <p class="humidityDisplay">Humidity: 75%</p>
+    <p class="descDisplay">Clear skies</p>
+    <p class="weatherEmote"></p>
+    <p class="errorDisplay">Enter a city</p>
+  </div>
+  <script src="script.js"></script>
+</body>
 </html>
