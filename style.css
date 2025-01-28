@@ -42,7 +42,9 @@ button[type="submit"] {
     circle,
     rgb(255, 255, 255) 5%,
     rgb(255, 217, 0) 30%,
-    rgb(64, 177, 253) 45%
+    rgb(64, 177, 253) 66%,
+    rgb(255, 255, 255) 67%,
+    rgb(64, 177, 253) 68%
   );
   padding: 50px;
   box-shadow: 2px 2px 5px rgb(0, 0, 0);
